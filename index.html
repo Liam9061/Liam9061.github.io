@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LiamGough.Dev</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- Nav-Bar section -->
@@ -20,16 +26,29 @@
         <!-- Start of Dropdown Menu here -->
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
+            <a href="#home" class="navbar__links" id="home-page"
+              ><i class="fas fa-home"></i>&emsp;Home</a
+            >
           </li>
           <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">About</a>
+            <a href="#about" class="navbar__links" id="about-page"
+              ><i class="fas fa-address-card"></i>&emsp; About</a
+            >
           </li>
           <li class="navbar__item">
-            <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+            <a href="#Skills" class="navbar__links" id="skills-page">
+              <i class="fas fa-check-circle"></i> &emsp;Skills</a
+            >
           </li>
           <li class="navbar__btn">
-            <a href="#github" class="button" id="github">GitHub</a>
+            <a
+              href="https://github.com/Liam9061"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button"
+              id="github"
+              ><i class="fab fa-github"></i>&emsp;GitHub</a
+            >
           </li>
         </ul>
       </div>
@@ -48,13 +67,77 @@
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
-          <div class="main__img--card">Placeholder For image</div>
+          <div class="main__img--card"><i class="fas fa-images"></i></div>
         </div>
         <div class="main__content">
           <h1>About</h1>
           <h2>This is the section where I write about me</h2>
           <p>Blah Blah Blah Blah Blah</p>
-          <button class="main__btn"><a href="#">LinkedIn (maybe)?</a></button>
+          <button class="main__btn">
+            <a
+              href="https://www.linkedin.com/in/liamgough/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-linkedin"></i> &emsp;LinkedIn</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills" id="Skills">
+      <h1>My Skills</h1>
+      <div class="skills__wrapper">
+        <div class="skills__card">
+          <h2><i class="fab fa-html5"></i>&emsp;HTML</h2>
+          <p>Skills P</p>
+          <div class="skills__btn"><button>Button</button></div>
+        </div>
+        <div class="skills__card">
+          <h2><i class="fab fa-css3-alt"></i>&emsp;CSS</h2>
+          <p>Skills P</p>
+          <div class="skills__btn"><button>Button</button></div>
+        </div>
+        <div class="skills__card">
+          <h2><i class="fab fa-js-square"></i>&emsp;Javascript</h2>
+          <p>Skills P</p>
+          <div class="skills__btn"><button>Button</button></div>
+        </div>
+        <div class="skills__card">
+          <h2>C# ASP.NET</h2>
+          <p>Skills P</p>
+          <div class="skills__btn"><button>Button</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer section-->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__links--wrapper">
+          <div class="footer__links--items">
+            <h2>LiamGough.Dev &emsp;</h2>
+            <a href="#home"> <i class="fas fa-home"></i>Home&emsp;</a>
+            <a href="#about"> <i class="fas fa-address-card"></i>About&emsp;</a>
+            <a href="#Skills">
+              <i class="fas fa-check-circle"></i>Skills&emsp;</a
+            >
+            <a
+              href="https://github.com/Liam9061"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i>GitHub&emsp;</a
+            >
+            <a
+              href="https://www.linkedin.com/in/liamgough/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin"></i>LinkedIn</a
+            >
+          </div>
         </div>
       </div>
     </div>
