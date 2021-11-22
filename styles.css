@@ -297,14 +297,14 @@
 }
 
 .main__content h1 {
+  font-size: 1.5rem;
   background-color: #fe3b6f;
-  background-image: linear-gradient(to top, #0c08ff 0%, #ffc400 100%);
+  background-image: linear-gradient(to top, #fff 0%, #fff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  text-transform: uppercase;
   margin-bottom: 32px;
 }
 .main__content h2 {
@@ -492,7 +492,7 @@
 
 .skills h1 {
   background-color: #ff8177;
-  background-image: linear-gradient(to right, #00ec8a 0%, #ffc400 100%);
+  background-image: linear-gradient(to right, #373b44, #4286f4);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
